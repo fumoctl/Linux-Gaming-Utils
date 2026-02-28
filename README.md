@@ -7,3 +7,12 @@ gamescope -f -S fit -F fsr -- %command%
 ```
 LSFG_PROCESS=<profile-name>
 ```
+# Game examples i use
+## The Finals
+```
+LSFG_PROCESS=performance PROTON_USE_NTSYNC=1 mangohud %command%
+```
+## Old VNs (ej. Majikoi)
+```
+gamescope -f -S fit -F fsr -- %command%
+```
