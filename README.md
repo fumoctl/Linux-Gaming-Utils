@@ -1,4 +1,9 @@
 # Linux-Gaming-Utils
+## increase vm.max_map_count
+edit the "/etc/sysctl.conf" file, add "vm.max_map_count=2147483642" to the bottom and then run:
+```
+sudo sysctl -p
+```
 ## gamescope (for upscaling most games including VNs while maintaining aspect ratio) (fullscreen, fit to screen (not fill or stretch) using fsr)
 ```
 gamescope -f -S fit -F fsr -- %command%
