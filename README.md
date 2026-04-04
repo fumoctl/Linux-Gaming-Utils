@@ -2,11 +2,11 @@
 ## Increase the Open File Limit (Crucial for Steam/Wine)
 Edit the limits file ```/etc/security/limits.conf```
 
-Add these lines at the bottom (replace yourusername with your actual login):
+Add these lines at the bottom (* means for all users):
 
 ```
-yourusername soft nofile 1048576
-yourusername hard nofile 1048576
+* soft nofile 1048576
+* hard nofile 1048576
 ```
 Reboot for this to take effect. You can verify it after rebooting by running ```ulimit -n``` in a terminal; it should show the new high number.
 ## increase vm.max_map_count
