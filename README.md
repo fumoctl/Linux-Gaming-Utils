@@ -45,3 +45,7 @@ LSFG_PROCESS=performance PROTON_USE_NTSYNC=1 mangohud %command%
 ```
 gamescope -f -S fit -F fsr -- %command%
 ```
+## Mortal Kombat 9
+```
+STEAM_COMPAT_DATA_PATH="/home/fumo/Games/steam/steamapps/compatdata/MK9" gamescope -w 1920 -h 1080 -b -F fsr -- %command%
+```
