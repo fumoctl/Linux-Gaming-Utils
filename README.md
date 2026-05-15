@@ -45,7 +45,11 @@ LSFG_PROCESS=performance PROTON_USE_NTSYNC=1 mangohud %command%
 ```
 gamescope -f -S fit -F fsr -- %command%
 ```
-## Mortal Kombat 9
+## Mortal Kombat 9 (as non steam game)
 ```
 STEAM_COMPAT_DATA_PATH="/home/fumo/Games/steam/steamapps/compatdata/MK9" gamescope -w 1920 -h 1080 -b -F fsr -- %command%
+```
+## Majikoi S (as non steam game(with translation patch))
+```
+LANG=ja_JP.UTF-8 STEAM_COMPAT_DATA_PATH="/home/fumo/Games/steam/steamapps/compatdata/Majikoi S" gamescope -f -S fit -F fsr -- %command%
 ```
