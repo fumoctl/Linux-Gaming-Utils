@@ -46,7 +46,8 @@ LSFG_PROCESS=performance PROTON_USE_NTSYNC=1 mangohud %command%
 gamescope -f -S fit -F fsr -- %command%
 ```
 
-## Bottles Winetricks
+## To add lutris games to steam on NixOS
+after clicking on adding to steam exit and launch steam again, then go to the game properties and on launch options add
 ```
-env WINEPREFIX="$HOME/.var/app/com.usebottles.bottles/data/bottles/bottles/Your_Bottle_Name" flatpak run --command=winetricks com.usebottles.bottles wmp11
+steam-run %command%
 ```
