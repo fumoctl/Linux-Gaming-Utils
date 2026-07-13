@@ -47,7 +47,11 @@ gamescope -f -S fit -F fsr -- %command%
 ```
 
 ## To add lutris games to steam on NixOS
-after clicking on adding to steam exit and launch steam again, then go to the game properties and on launch options add
+after clicking on adding to steam exit and launch steam again, then go to the game properties and on launch options add at the beginning:
 ```
 steam-run %command%
+```
+so it looks something like this:
+```
+steam-run %command% lutris:rungameid/2
 ```
